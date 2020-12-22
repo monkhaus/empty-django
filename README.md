@@ -24,10 +24,12 @@ VIA SSH: git clone git@github.com:monkhaus/empty-django.git
 
 # clone git repo 
 #### via HTTPS: 
-- git clone https://github.com/monkhaus/empty-django.git 
+
+```git clone https://github.com/monkhaus/empty-django.git```
 
 #### via SSH: 
-- git clone git@github.com:monkhaus/empty-django.git
+```git clone git@github.com:monkhaus/empty-django.git```
 
 #### copy into terminal:
-- cd empty-django && python3 -m venv ve && source ve/bin/activate && python -m pip install pip-tools && pip-sync && cd project && python manage.py runserver
+
+```cd empty-django && python3 -m venv ve && source ve/bin/activate && python -m pip install pip-tools && pip-sync && cd project && python manage.py runserver```
