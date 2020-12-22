@@ -20,14 +20,14 @@ VIA SSH: git clone git@github.com:monkhaus/empty-django.git
 8. python manage.py runserver
 
 
+#
 
-
-clone git repo 
-VIA HTTPS: 
+## clone git repo 
+via HTTPS: 
 - git clone https://github.com/monkhaus/empty-django.git 
 
-VIA SSH: 
+## via SSH: 
 - git clone git@github.com:monkhaus/empty-django.git
 
-THEN copy into terminal:
+then copy into terminal:
 - cd empty-django && python3 -m venv ve && source ve/bin/activate && python -m pip install pip-tools && pip-sync && cd project && python manage.py runserver
