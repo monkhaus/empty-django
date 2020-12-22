@@ -29,5 +29,5 @@ git clone https://github.com/monkhaus/empty-django.git
 VIA SSH: 
 git clone git@github.com:monkhaus/empty-django.git
 
-THEN copy into terminal
+THEN copy into terminal:
 cd empty-django && python3 -m venv ve && source ve/bin/activate && python -m pip install pip-tools && pip-sync && cd project && python manage.py runserver
