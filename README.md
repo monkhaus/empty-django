@@ -11,13 +11,13 @@ The settings.py file already includes the apps and the middleware so that doesn'
 VIA HTTPS: git clone https://github.com/monkhaus/empty-django.git 
 VIA SSH: git clone git@github.com:monkhaus/empty-django.git
 
-2. cd empty-django
-3. python3 -m venv ve
-4. source ve/bin/activate
-5. python -m pip install pip-tools
-6. pip-sync
-7. cd project
-8. python manage.py runserver
+2. `cd empty-django`
+3. `python3 -m venv ve`
+4. `source ve/bin/activate`
+5. `python -m pip install pip-tools`
+6. `pip-sync`
+7. `cd project`
+8. `python manage.py runserver`
 
 
 
